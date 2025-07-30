@@ -1,0 +1,28 @@
+:root {
+  --blush: #E9D1C9;
+  --charcoal: #1E2626;
+  --dove: #E2E2E4;
+}
+
+.name-heading {
+  font-family: "Young Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.name-heading .monsieur-la-doulaise-regular {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 3rem; /* slightly larger for style */
+    position: relative;
+    top: 2px; /* fine-tune alignment if needed */
+}
+
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: var(--dove);
+  color: var(--charcoal);
+}
+
+
